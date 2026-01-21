@@ -7,7 +7,7 @@ const PORT = 8888;
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
-const REDIRECT_URI = process.env.REDIRECT_URI;
+const REDIRECT_URI = process.env.SPOTIFY_REDIRECT_URI;
 
 const SCOPES = [
     'user-read-currently-playing',
